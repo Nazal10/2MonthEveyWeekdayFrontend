@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table Structure - Forms</title>
+</head>
+<body>
+    <table border="3" cellpadding="8" cellspacing="1">
+        <!-- width="100%" bunu eklesek sayfanin kapsayacagi yuzdeligi veriri -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nazal</td>
+                <td>Salah</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Sade</td>
+                <td>Kosar</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Warfa</td>
+                <td>Farah</td>
+                <td>39</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div> 
+        <div>
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname">
+        </div> 
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" />
+        </div>
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" />
+        </div>
+        <div>
+            <label>Gender:</label>
+            <label for="woman">Woman</label>
+            <input type="radio" id="woman" name="gender" />
+            <label for="man">Man</label>
+            <input type="radio" id="man" name="gender" />
+        </div>
+        <div>
+            <label>Programming Language:</label>
+            <label for="python">Python</label>
+            <input type="checkbox" id="python" name="python" />
+            <label for="javascript">Javascript</label>
+            <input type="checkbox" id="javascript" name="javascript" />
+        </div>
+
+        <div>
+            <label >Outside or Inside:</label>
+            
+                <label> Outside
+                    <input type="radio" name="side">
+                </label>
+                
+                <label> Inside
+                    <input type="radio" name="side">
+                </label>
+            
+        </div>
+        
+        <input type="submit" value="Send" />
+    </form>
+</body>
+</html>
