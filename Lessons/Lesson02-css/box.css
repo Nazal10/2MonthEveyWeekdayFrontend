@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+}
+
+.red{
+    background-color: rgb(151, 48, 48);
+    margin-left: 50px;
+    padding: 20px 0;
+}
+
+.blue{
+    background-color: blue;
+    margin-bottom: 50px;
+}
+
+.green{
+    background-color: green;
+    margin: 10px 20px 70px 50px;
+}
+
+.yellow{
+    background-color: yellow;
+    margin: 100px 30px 100px 220px;
+}
