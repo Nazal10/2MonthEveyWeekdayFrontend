@@ -1,0 +1,73 @@
+/* Psuedo Classes */
+
+.link{
+    color: chocolate;
+}
+
+.link:active{
+    color: blueviolet;
+}
+
+.link:visited{
+    color: blue;
+}
+
+.link:hover{
+    color: aqua;
+}
+
+.list_item{
+    color: rgb(170, 33, 33);
+    list-style-type: none;
+    font-size: 18px;
+}
+/* 
+.list_item:first-child{
+    color: green;
+}
+
+.list_item:last-child{
+    color: rgb(24, 55, 192);
+} */
+
+/* .list_item:nth-child(odd){
+    color: rgb(173, 102, 240);
+} */
+
+/* .list_item:nth-child(even){
+    color: rgb(11, 42, 184);
+} */
+
+/*birden fazla satirin renkleri degistirmek icin de altaki
+ gibi yapabilrsiniz */ 
+
+.list_item:nth-child(5),
+.list_item:nth-child(9){
+    color: cornflowerblue;
+}
+
+.list_item:nth-child(2n-1){
+    color: rgb(97, 29, 161);
+}
+
+/* Psuedo Element ## iki tane koyunca element oluyor*/
+.list_item::first-letter {
+    color: rgb(3, 101, 249);
+    font-size: 44px;
+}
+
+.text::first-letter{
+    color: burlywood;
+    font-size: 24px;
+}
+
+.text::after{
+    content: "Hi you can't select me! with your mouse.";
+    color: darkorchid;
+    font-size: 24px;
+}
+.text::before{
+    content: "Hi i am the header one, you can't select me! with your mouse.";
+    color: rgb(20, 134, 211);
+    font-size: 24px;
+}
