@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /*transition-property: background-color, width, height;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    *//*transition: all .5s ease-in-out;
+    *//*animation-name: minibox;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    */
+    animation: minibox 2s ease-in-out infinite;
+}
+
+
+@keyframes minibox{
+    0%{
+        transform: translateX(0px);
+        background-color: red;
+}
+25%{
+    transform: translateX(100px);
+    background-color: green;
+}
+
+50%{
+    transform: translateX(200px);
+    background-color: blue;
+}
+75%{
+    transform: translateX(300px);
+    background-color: rgb(104, 24, 179);
+}
+100%{
+    transform: translateX(0px);
+    background-color: purple;
+}
+
+}
