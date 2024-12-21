@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+    />
+</head>
+<body>
+    <!-- Accordion -->
+
+    <div class="accordion" id="accordionSign">
+        
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionSign">
+
+            <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> 
+                It is shown by default, until the collapse plugin adds the appropriate classes 
+                that we use to style each element. These classes control the overall appearance, 
+                as well as the showing and hiding via CSS transitions. You can modify any of this 
+                with custom CSS or overriding our default variables. It's also worth noting 
+                that just about any HTML can go within the <code>.accordion-body</code>, 
+                though the transition does limit overflow.
+            </div>
+        </div>
+        </div>
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+            </button>
+        </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionSign">
+
+            <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> 
+                It is hidden by default, until the collapse plugin adds the appropriate classes 
+                that we use to style each element. These classes control the overall appearance, 
+                as well as the showing and hiding via CSS transitions. You can modify any of this 
+                with custom CSS or overriding our default variables. It's also worth noting 
+                that just about any HTML can go within the <code>.accordion-body</code>, 
+                though the transition does limit overflow.
+            </div>
+        </div>
+        </div>
+
+        <div class="accordion-item">
+            
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+            </button>
+        </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionSign">
+                
+                <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> 
+                It is hidden by default, until the collapse plugin adds the appropriate classes 
+                that we use to style each element. These classes control the overall appearance, 
+                as well as the showing and hiding via CSS transitions. You can modify any of this 
+                with custom CSS or overriding our default variables. It's also worth noting that 
+                just about any HTML can go within the <code>.accordion-body</code>, 
+                though the transition does limit overflow.
+            </div>
+        </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Alerts -->
+    
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+    </div>
+        <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+    </div>
+        <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+    </div>
+        <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+    </div>
+        <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+    </div>
+        <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+    </div>
+        <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+    </div>
+    <br>
+
+    <div class="alert alert-success m-5" role="alert">
+        <h4 class="alert-heading">Well done!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+        <hr>
+        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+    </div>
+
+    <!-- Badge -->
+    <div>Example heading 
+        <span class="badge text-bg-danger">Degdeg</span></div>
+    <h2>Example heading 
+        <span class="badge text-bg-primary">New</span></h2>
+    <div>Example heading 
+        <span class="badge text-bg-info">Ogeysiis</span></div>
+    <h4>Example heading 
+        <span class="badge text-bg-secondary">War Degdeg ah</span></h4>
+    <h3>Example heading 
+        <span class="badge text-bg-dark">New</span></h3>
+    <div>Example heading 
+        <span class="badge text-bg-warning">Muhiim</span></div>
+        <br>
+        
+        <button type="button" class="btn btn-info">
+            Notifications <span class="badge text-bg-secondary">40</span>
+        </button>
+        <button type="button" class="btn btn-outline-primary">
+            Notifications <span class="badge text-bg-secondary">45</span>
+        </button>
+
+        <div class="mt-5">
+            <button type="button" class="btn btn-primary position-relative">
+                Inbox
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </button>
+        </div>
+
+        <div class="mt-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active text-bg-info" aria-current="page">Home</li>
+                </ol>
+            </nav>
+            
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active text-bg-primary" aria-current="page">Library</li>
+                </ol>
+            </nav>
+            
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active text-bg-success" aria-current="page">Data</li>
+                </ol>
+            </nav>
+            
+            <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active text-bg-secondary" aria-current="page">Data</li>
+                </ol>
+            </nav>
+        </div>
+        
+        <!-- Button -->
+        
+        <div class="container">
+            <div class="m-5">
+                <button class="btn btn-success">Test 1</button>
+                <span class="btn btn-danger btn-outline-warning">Test 2</span>
+                <div class="btn btn-warning">Test 3</div>
+            </div>
+        </div>
+
+        <p class="d-inline-flex gap-1">
+            <button type="button" class="btn" data-bs-toggle="button">Toggle button</button>
+            <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+            <button type="button" class="btn" disabled data-bs-toggle="button">Disabled toggle button</button>
+        </p>
+        <p class="d-inline-flex gap-1">
+            <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+            <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+            <button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button>
+        </p>
+
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button">Button</button>
+            <button class="btn btn-warning" type="button">Button</button>
+        </div>
+        
+        <!-- Button group-->
+        
+        <div class="btn-group mt-4" role="group" area-label="Tusaale Fudud">
+            <button type="button" class="btn btn-primary">Bidix</button>
+            <button type="button" class="btn btn-outline-success">Dhex</button>
+            <button type="button" class="btn btn-warning">Midig</button>
+        </div>
+        
+        <!-- Cards-->
+        
+        <div class="container">
+            <div class="row my-5">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/1400172/pexels-photo-1400172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                        class="card-img-top" alt="sawir tijaabo">
+                        <div class="card-body">
+                            <h5 class="card-title">Yaanyo</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-success">iigu dar Cardka</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/8467970/pexels-photo-8467970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                        class="card-img-top" alt="sawir tijaabo">
+                        <div class="card-body">
+                            <h5 class="card-title">Shampoo</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-success">iigu dar Cardka</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/4465830/pexels-photo-4465830.jpeg?auto=compress&cs=tinysrgb&w=300" 
+                        class="card-img-top" alt="sawir tijaabo">
+                        <div class="card-body">
+                            <h5 class="card-title">Saliid</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-success">iigu dar Cardka</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/19441119/pexels-photo-19441119/free-photo-of-orange-slice-on-cake.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                        class="card-img-top" alt="sawir tijaabo">
+                        <div class="card-body">
+                            <h5 class="card-title">Doolshe</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-success">iigu dar Cardka</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+
+</script>
+    
+</body>
+</html>
