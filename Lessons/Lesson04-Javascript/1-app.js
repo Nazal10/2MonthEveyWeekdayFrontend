@@ -354,4 +354,72 @@ for (let index = 0; index < luuqadaha2.length; index++){
 }
 
 // Function - Fonksiyonlar
+function hi(){
+    console.log("Asalaamu Caleykum");
+}
+hi();
 
+function hi2(){
+    return "Selamunaleykum";
+}
+console.log(hi2());
+
+function Shaaale(name, age) {
+    console.log(`Magaca: ${name} Dada: ${age}`);
+    }
+    Shaaale("Zekerie",  29);
+
+function Maamule(name, age= "Lama ogo") {
+    console.log(`Magaca: ${name}, Da-da: ${age}`);
+}
+Maamule("Asad"); // Da'da hadii aadan qorin Lama ogo ayaa soo qormeesa.
+
+// return function 
+function labajibaar (a){
+    return a*a;
+}
+const natiijo = labajibaar(5) *3;
+console.log(natiijo);
+
+// Arrow Function
+const labajibaar2 = (x) => {
+    return x*x;
+}
+console.log(labajibaar2(3));
+
+const labajibaar3 = x => x*x; // tek eleman olsa bir satirda boyle yazabilirim.
+console.log(labajibaar3(10));
+
+// while dongusu
+let i=0;
+
+while (i<10){
+    console.log(i);
+    i++;
+}
+
+while (i<10){
+    if (i==5){
+        i++;
+        continue;
+    }
+    console.log(i);
+    i++;
+}
+
+// do while dongusu 
+do {
+    console.log(i);
+    i++;
+} while (i<6);
+
+// ForEach dongusu
+const luqadCusub = ["Python", "C++", "Java", "JavaScript"];
+luqadCusub.forEach(function(luqadCusub, index) {
+    console.log(luqadCusub,index);
+});
+
+// Map dongusu
+luqadCusub.map(function(luqadCusub, index) {
+    console.log(luqadCusub,index);
+});
