@@ -52,4 +52,4 @@ console.log(value);
 const textInput = document.querySelector("#text-input");
 textInput.addEventListener("keyup", () => console.log(textInput.value));
 textInput.addEventListener("focus", () => (textInput.value = ""));
-textInput.addEventListener("blur", () => console.log("Çıkış yapıldı"));
+textInput.addEventListener("blur", () => console.log("Waad ka baxday"));
