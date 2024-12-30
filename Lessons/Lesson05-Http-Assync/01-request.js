@@ -3,7 +3,7 @@ document.getElementById("data").addEventListener("click", function() {
     const xhr = new XMLHttpRequest();
     console.log(xhr);
     xhr.onreadystatechange = function() {
-            // console.log(xhr.readyState);
+        // console.log(xhr.readyState);
         if (xhr.readyState == 4 && xhr.status == 200) {
             console.log(xhr.responseText);
             // document.write(xhr.responseText);
@@ -16,4 +16,5 @@ document.getElementById("data").addEventListener("click", function() {
     xhr.open("GET", "text.txt", true);
         xhr.send();
     });
+
 

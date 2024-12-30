@@ -1,0 +1,23 @@
+[
+    {
+        "Magaca": "Qaalid Hashi",
+        "Kuliyada": "Computer Science",
+        "Mushaarka": 4000
+    },
+    {
+        "Magaca": "Ayanle Abdi",
+        "Kuliyada": "Software Engineering",
+        "Mushaarka": 5000
+    },
+    {
+        "Magaca": "Hodan Ahmed",
+        "Kuliyada": "Mechanic Engineering",
+        "Mushaarka": 6000
+    },
+    {
+        "Magaca": "Abdirahman Ali",
+        "Kuliyada": "Electrical Engineering",
+        "Mushaarka": 7000
+    }
+]
+
