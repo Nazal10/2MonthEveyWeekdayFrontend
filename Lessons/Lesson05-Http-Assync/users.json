@@ -1,23 +1,22 @@
 [
     {
-        "Magaca": "Qaalid Hashi",
-        "Kuliyada": "Computer Science",
-        "Mushaarka": 4000
+        "name": "Abdi Ahmed",
+        "department": "Data Analysis",
+        "salary": 5000
     },
     {
-        "Magaca": "Ayanle Abdi",
-        "Kuliyada": "Software Engineering",
-        "Mushaarka": 5000
+        "name": "Hodan Ali",
+        "department": "HR",
+        "salary": 7000
     },
     {
-        "Magaca": "Hodan Ahmed",
-        "Kuliyada": "Mechanic Engineering",
-        "Mushaarka": 6000
+        "name": "Amina Hassan",
+        "department": "Finance",
+        "salary": 6000
     },
     {
-        "Magaca": "Abdirahman Ali",
-        "Kuliyada": "Electrical Engineering",
-        "Mushaarka": 7000
+        "name": "Farah Mohamed",
+        "department": "Finance",
+        "salary": 5500
     }
 ]
-

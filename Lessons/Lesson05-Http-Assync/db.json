@@ -1,0 +1,318 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "name": "Abdi Ahmed",
+      "department": "Data Analysis",
+      "salary": 5000
+    },
+    {
+      "name": "Hodan Ali",
+      "department": "HR",
+      "salary": 7000
+    },
+    {
+      "name": "Amina Hassan",
+      "department": "Finance",
+      "salary": 6000
+    },
+    {
+      "name": "Farah Mohamed",
+      "department": "Finance",
+      "salary": 5500
+    },
+    {
+      "id": "c192",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "0459",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "5ea0",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "211f",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "ae08",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "10e8",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "b582",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "ce66",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "0888",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "021a",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "1bd7",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "6c4f",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "1c5a",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "ef81",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "11e0",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "2945",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "6122",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "df05",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "049c",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "2720",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "3a6c",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "2037",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "d379",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "33dd",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "f180",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "6962",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "bc0c",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "b2c4",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "3f7f",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "8aaf",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "7da3",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "7b06",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "07c0",
+      "userID": 2,
+      "title": "New Post",
+      "body": "This is a new post"
+    },
+    {
+      "id": "2c29",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "69d6",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "910e",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "b339",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "effd",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "a193",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "1c25",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "5c78",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "70de",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "e007",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "7363",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    },
+    {
+      "id": "a379",
+      "name": "Nazal Salah",
+      "department": "Politic Science",
+      "salary": 10000
+    }
+    ]
+  }

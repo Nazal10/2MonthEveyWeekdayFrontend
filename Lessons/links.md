@@ -29,8 +29,6 @@
 - [Testing setup with Vite](https://victorbruce82.medium.com/vitest-with-react-testing-library-in-react-created-with-vite-3552f0a9a19a)
 - [Storybook](https://storybook.js.org/docs)
 
-
-
 ## Extra links
 
 - [For Frontend Challenges](https://www.frontendmentor.io/challenges)
