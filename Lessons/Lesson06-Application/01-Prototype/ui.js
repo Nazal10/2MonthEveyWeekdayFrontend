@@ -1,6 +1,6 @@
 function UI () {}
 
-UI.prototype.addBookToList = function (newFilm) {
+UI.prototype.addFilmToUI = function (newFilm) {
     const filmlist = document.getElementById("films");
     filmlist.innerHTML += `
     <tr>
@@ -31,6 +31,7 @@ UI.prototype.loadAllFilms = function (films) {
         `;
     });
 };
+
 
 UI.prototype.deleteFilmFromUI = function (element) {
     element.parentElement.parentElement.remove();

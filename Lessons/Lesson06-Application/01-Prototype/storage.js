@@ -3,7 +3,7 @@ function Storage() {}
 Storage.prototype.addFilmToStorage = function(newFilm) {
     let films = this.getFilmsFromStorage();
     films.push(newFilm);
-    this.setItem("films", JSON.stringify(films));
+    localStorage.setItem("films", JSON.stringify(films));
 };
 
 Storage.prototype.getFilmsFromStorage = function() {
@@ -23,7 +23,7 @@ Storage.prototype.deleteFilmFromStorage = function(filmTitle) {
             films.splice(index, 1);
         }
     });
-    this.setItem("films", JSON.stringify(films));
+    localStorage.setItem("films", JSON.stringify(films));
 }
 
 Storage.prototype.clearAllFilmsFromStorage = function() {
