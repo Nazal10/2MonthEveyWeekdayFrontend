@@ -1,13 +1,13 @@
 class Storage {
-    static addFilmStore(newFilm) {
-        let film = this.getFilmsFromStore();
+    static addFilmToStorage(newFilm) {
+        let film = this.getFilmsFromStorage();
         film.push(newFilm);
         localStorage.setItem("films", JSON.stringify(film));
     }
 
-    static getFilmsFromStore() {
+    static getFilmsFromStorage() {
         let films;
-        if (localStorage.getItem("films") ===null) {
+        if (localStorage.getItem("films") === null) {
             films = [];
         } else {
             films = JSON.parse(localStorage.getItem("films"));
@@ -15,8 +15,8 @@ class Storage {
         return films;
     }
 
-    static deleteFilmFromStore(filmTitle) {
-        let films = this.getFilmsFromStore();
+    static deleteFilmFromStorage(filmTitle) {
+        let films = this.getFilmsFromStorage();
         films.forEach(function(film, index) {
             if (film.title === filmTitle) {
                 films.splice(index, 1);

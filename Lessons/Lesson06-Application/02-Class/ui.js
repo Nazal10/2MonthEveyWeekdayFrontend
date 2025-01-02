@@ -25,7 +25,11 @@ class UI {
         carBody.appendChild(div);
         setTimeout(function () {
             div.remove();
-        }, 2500);
+        }, 2000);
+    }
+    
+    static deleteFilmFromUI(e) {
+        e.parentElement.parentElement.remove();
     }
 
     static clearAllFilmsFromUI() {
@@ -34,18 +38,18 @@ class UI {
             filList.firstElementChild.remove();
         }
     }
-
+    
     static loadAllFilmsFromUI(films) {
         const filmList = document.getElementById("films");
         films.forEach(function (film) {
             filmList.innerHTML += `
-            <tr>
-                <td class="w-25"><img src="${newFilm.url}" class="img-fluid img-thumbnail"></td>
-                <td class="w-25">${newFilm.title}</td>
-                <td class="w-25">${newFilm.director}</td>
-                <td class="w-25"><a href="#" id="delete-film" class="btn btn-danger">Filmi Sil</a></td>
-            </tr>
-            `;
+        <tr>
+        <td class="w-25"><img src="${film.url}" class="img-fluid img-thumbnail"></td>
+        <td class="w-25">${film.title}</td>
+        <td class="w-25">${film.director}</td>
+        <td class="w-25"><a href="#" id="delete-film" class="btn btn-danger">Delete Film</a></td>
+        </tr>
+        `;
         });
     }
 }
