@@ -12,9 +12,8 @@ body{
     background: linear-gradient(to right, #fc5185 50%, #00adb5 50%) fixed;
 
 }
-
 .container {
-    border-color: #fff;
+    background-color: #fff;
     width: 400px;
     padding: 50px;
     position: absolute;
@@ -79,6 +78,7 @@ buttons {
     background-color: #e1e0ee;
     color: #101020;
     border-radius: #e1e0ee;
+    opacity: 0.6;
 }
 
 #tirtir-reset {
@@ -90,6 +90,14 @@ buttons {
     0% {
         transform: rotateX(0);
     } 100% {
-        transform: rotateX(1980);
+        transform: rotateX(1980deg);
 }
+} 
+
+@keyframes spin-madax {
+    0% {
+        transform: rotateX(0);
+    } 100% {
+        transform: rotateX(2160deg);
 }
+} 
