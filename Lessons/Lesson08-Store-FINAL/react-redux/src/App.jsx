@@ -1,35 +1,47 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useSelector, useDispatch } from "react-redux";
+import { addTodo, deleteTodo } from "./redux/slices/todoSlice";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const todos = useSelector((state) => state.todo.todos);
+  const dispatch = useDispatch();
+
+  const handleDelete = (id) => {
+    dispatch(deleteTodo(id));
+  };
+
+  const handleAddTodo = (todo) => {
+    dispatch(addTodo(todo));
+  };
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>Redux Toolkit Todo App</h1>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          const todo = e.target[0].value;
+          handleAddTodo({
+            id: Date.now(),
+            title: todo,
+            completed: false,
+          });
+        }}
+      >
+        <input type="text" name="todo" />
+        <button type="submit">Add Todo</button>
+      </form>
+
+      <ul>
+        {todos.map((todo) => (
+          <li key={todo.id}>
+            {todo.title}
+            <button onClick={() => handleDelete(todo.id)}>X</button>
+          </li>
+        ))}
+      </ul>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
